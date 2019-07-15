@@ -3,8 +3,6 @@ Fun and interactive game for web browsers. This app dynamically updates the HTML
 
 CrystalsCollector Game
 
-![Crystal Collector](Images/1-CrystalCollector.jpg)
-
 1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
 
 2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
