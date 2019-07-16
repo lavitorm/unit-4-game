@@ -49,8 +49,8 @@ function loser(){
     }
 //setup click for crystals
 //win/lose conditions
-//The player wins if their total score matches the random number from the beginning of the game
-//The player loses if their score goes above the random number
+//Players win if their total score matches the random number from the beginning of the game
+//Players lose if their score goes above the random number
   $('#ruby').on ('click', function(){
     score = score + ruby;
     console.log("score= " + score);
