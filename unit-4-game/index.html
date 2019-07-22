@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Crystals Collector Game</title>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Link added to a css custom file -->
+		<link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Body frame / content -->
+		  <h1>Crystals Collector Game!</h1>
+        <p>You'll be given a randon number at the start of the game.</p>
+        <p>There are four crystals bellow. By clicking on a crystal you<br>
+        will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random<br>
+        number, you lose the game if your total score goes above<br>
+        the random number.<p>
+        <p>The value of each crystal is hiden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+        <p>Number: <span id="randonNumber"></span></p>
+		    <p>Wins: <span class="wins"></span></p>
+		    <p>Losses: <span class="Losses"></span></p>
+        <button>ruby <span class="ruby"></span></button>
+        <button>diamond <span class="diamond"></span></button>
+        <button>sapphire <span class="sapphire"></span></button>
+        <button>esmerald <span class="esmerald"></span></button>
+		  <div class="scoreLabel">
+			  <h2>Your total score is:
+				  <span id="score"></span>
+			  </h2>
+		  </div>
+	<!-- Link added to a javascript custom file -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
+
+<!-- CrystalsCollector Game (Recommended)
+![Crystal Collector](Images/1-CrystalCollector.jpg)
+1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
+2. The player will have to guess the answer, just like in Word Guess. 
+This time, though, the player will guess with numbers instead of letters. 
+3. Here's how the app works:
+   * There will be four crystals displayed as buttons on the page.
+   * The player will be shown a random number at the start of the game.
+   * When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+     * Your game will hide this amount until the player clicks a crystal.
+     * When they do click one, update the player's score counter.
+   * The player wins if their total score matches the random number from the beginning of the game.
+   * The player loses if their score goes above the random number.
+   * The game restarts whenever the player wins or loses.
+     * When the game begins again, the player should see a new random number. 
+     Also, all the crystals will have four new hidden values. 
+     Of course, the user's score (and score counter) will reset to zero.
+   * The app should show the number of games the player wins and loses. 
+   To that end, do not refresh the page as a means to restart the game.
+##### Option 1 Game design notes
+* The random number shown at the start of the game should be between 19 - 120.
+* Each crystal should have a random hidden value between 1 - 12.. -->

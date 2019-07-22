@@ -1,0 +1,47 @@
+  .ruby {
+    background-color: rgb(131, 4, 4); /* "ruby" */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px
+  }
+
+  .diamond {
+    background-color: silver ; /* "Diamond" */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px
+  }
+
+  .sapphire {
+    background-color: rgb(30, 94, 30); /* "Sapphire" */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px
+  }
+
+  .esmerald {
+    background-color: rgb(8, 8, 99); /* "esmerald" */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px
+  }
